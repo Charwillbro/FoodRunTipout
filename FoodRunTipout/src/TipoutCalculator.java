@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class TipoutCalculator {
@@ -10,7 +12,7 @@ public class TipoutCalculator {
 		double totalTipout = 0;
 		double hourlyRate;
 
-		System.out.println("How many food Runners were there?");
+		System.out.println("How many food runners were there?");
 		numOfFoodRun = in.nextInt();
 
 		double[] runnerHours = new double[numOfFoodRun];

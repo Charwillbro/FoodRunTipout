@@ -42,7 +42,7 @@ public class TipoutCalculator {
 		for (int i = 0; i < numOfFoodRun; i++) {
 
 			hourlyPay[i] = hourlyRate * runnerHours[i];
-			System.out.println("meow meow");
+			
 			System.out.printf("Food runner " + (i + 1) + " gets $%.2f dollars. \n", hourlyPay[i]);
 
 		}

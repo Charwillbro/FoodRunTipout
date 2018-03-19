@@ -46,6 +46,8 @@ public class TipoutCalculator {
 			System.out.printf("Food runner " + (i + 1) + " gets $%.2f dollars. \n", hourlyPay[i]);
 
 		}
+		System.out.printf("");
+		System.out.printf("With an hourly pay rate of $%.2f per hour", hourlyRate);
 		in.close();
 	}
 

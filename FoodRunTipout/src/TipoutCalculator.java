@@ -1,5 +1,3 @@
-package src;
-
 import java.util.Scanner;
 
 public class TipoutCalculator {
@@ -12,7 +10,7 @@ public class TipoutCalculator {
 		double totalTipout = 0;
 		double hourlyRate;
 
-		System.out.println("How many food runners were there?");
+		System.out.println("How many food Runners were there?");
 		numOfFoodRun = in.nextInt();
 
 		double[] runnerHours = new double[numOfFoodRun];
@@ -31,7 +29,7 @@ public class TipoutCalculator {
 
 		}
 
-		// getting the total tip out
+		// getting the total tipout
 		System.out.println();
 		System.out.println("How much did you collect in tips?");
 		totalTipout = in.nextDouble();
@@ -42,7 +40,7 @@ public class TipoutCalculator {
 		for (int i = 0; i < numOfFoodRun; i++) {
 
 			hourlyPay[i] = hourlyRate * runnerHours[i];
-			
+
 			System.out.printf("Food runner " + (i + 1) + " gets $%.2f dollars. \n", hourlyPay[i]);
 
 		}

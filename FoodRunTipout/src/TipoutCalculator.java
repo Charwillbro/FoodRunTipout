@@ -31,7 +31,7 @@ public class TipoutCalculator {
 
 		}
 
-		// getting the total tipout
+		// getting the total tip out
 		System.out.println();
 		System.out.println("How much did you collect in tips?");
 		totalTipout = in.nextDouble();
@@ -42,7 +42,7 @@ public class TipoutCalculator {
 		for (int i = 0; i < numOfFoodRun; i++) {
 
 			hourlyPay[i] = hourlyRate * runnerHours[i];
-
+			System.out.println("meow meow");
 			System.out.printf("Food runner " + (i + 1) + " gets $%.2f dollars. \n", hourlyPay[i]);
 
 		}
